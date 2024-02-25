@@ -35,12 +35,3 @@ class GPT_response:
         output = response.choices[0].message.content
         return output
 
-
-# text = '''Python is a dynamically typed, garbage-collected language that supports various programming paradigms,
-# such as structured, object-oriented, and functional programming.
-# It is known for its extensive standard library, often referred to as a "batteries included" language.'''
-#
-# prompt = "Please summarize the given paragraph without losing the meaning"
-#
-# gpt = GPT_response(text, prompt)
-# print(gpt.prompt_response())
