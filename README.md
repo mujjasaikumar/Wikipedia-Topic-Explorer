@@ -73,6 +73,9 @@ Follow these steps to install and run the application locally:
 - **GET /summarize_section/<section_index>**: Summarize a specific section of the Wikipedia page using GPT-3 Turbo.
 - **GET /paraphrase_section/<section_index>**: Paraphrase a specific section of the Wikipedia page using GPT-3 Turbo.
 
+## Scope of Improvement
+- **Improved JSON Output**: Currently, the paraphrased and summarized data is displayed in JSON format. Consider enhancing the output format to make it more user-friendly, such as formatting the text for better readability or providing additional context.
+
 ## Deployment
 
 This code is hosted on [https://wiki-summarisation-paraphrasing.onrender.com](https://wiki-summarisation-paraphrasing.onrender.com).
