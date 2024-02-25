@@ -11,15 +11,18 @@ The **Wikipedia Topic Explorer** is a web application built with Flask that allo
 - The application retrieves the sections of the Wikipedia page and displays them to the user.
 
 ### 2. View Section Content
-- Users can click on the section links to view the content of specific sections of the Wikipedia page.
+- Users can submit the section number to view the content of specific sections of the Wikipedia page.
 
 ### 3. Summarize Sections
 - Users have the option to generate summaries of specific sections using GPT-3.
-- Summarized text is displayed to the user, providing a concise overview of the section content.
+- Summarized text is displayed to the user in json format, providing a concise overview of the section content.
 
 ### 4. Paraphrase Sections
 - Users can generate paraphrases of specific sections of the Wikipedia page using GPT-3.
-- Paraphrased text is displayed, offering a rephrased version of the section content.
+- Paraphrased text is displayed in json format, offering a rephrased version of the section content.
+
+### 5. Summarize and Paraphrase Buttons
+- Users can find "Summarize" and "Paraphrase" buttons on top of each section, enabling them to directly summarize or paraphrase the content of that section.
 
 ## Installation
 
@@ -28,7 +31,7 @@ Follow these steps to install and run the application locally:
 1. Clone the repository:
 
    ```bash
-   gh repo clone mujjasaikumar/Wikipedia-Topic-Explorer
+   git clone https://github.com/mujjasaikumar/Wikipedia-Topic-Explorer.git
    ```
 
 2. Install dependencies:
@@ -72,7 +75,7 @@ Follow these steps to install and run the application locally:
 
 ## Deployment
 
-This code is hosted on [Render](https://wiki-summarisation-paraphrasing.onrender.com).
+This code is hosted on [https://wiki-summarisation-paraphrasing.onrender.com](https://wiki-summarisation-paraphrasing.onrender.com).
 
 ## Technologies Used
 
