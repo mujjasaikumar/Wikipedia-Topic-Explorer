@@ -28,7 +28,7 @@ Follow these steps to install and run the application locally:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+  gh repo clone mujjasaikumar/Wikipedia-Topic-Explorer
    ```
 
 2. Install dependencies:
