@@ -1,12 +1,10 @@
 
 from flask import Flask, render_template, redirect, url_for, request, jsonify
-from flasgger import Swagger
 import wikipediaapi
 from GPT import GPT_response
 import re
 
 app = Flask(__name__)
-swagger = Swagger(app)
 
 wiki_topic = None
 
