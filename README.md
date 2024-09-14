@@ -78,7 +78,7 @@ Follow these steps to install and run the application locally:
 
 ## Deployment
 
-This code is hosted on [https://wiki-summarisation-paraphrasing.onrender.com](https://wiki-summarisation-paraphrasing.onrender.com).
+This code is hosted on [https://wikitopics.vercel.app](https://wikitopics.vercel.app).
 
 ## Technologies Used
 
